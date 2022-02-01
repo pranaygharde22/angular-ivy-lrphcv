@@ -8,6 +8,7 @@ import { HelloComponent } from './hello.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
 import { SampleProjectComponent } from './sample-project/sample-project.component';
+import {DfmComponent} from './dfm/dfm.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, appRoutingModule],
@@ -17,6 +18,7 @@ import { SampleProjectComponent } from './sample-project/sample-project.componen
     WelcomeComponent,
     HomeComponent,
     SampleProjectComponent,
+    DfmComponent
   ],
   bootstrap: [AppComponent],
 })
