@@ -1,0 +1,78 @@
+.sidenav {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  background-color: #18698b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #f1f1f1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sidenav i {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #f1f1f1;
+  display: block;
+}
+.sidenav p {
+  padding-top: 300px;
+  font-size: 3px;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.navbar-custom {
+  background-color: #18698b;
+  height: 50px;
+}
+.topnav-right {
+  float: right;
+}
+
+
+.container {
+  padding: 20px;
+}
+.popover {
+  width: 350px;
+  max-width: 1500px;
+}
+.popover-content h4 {
+  color: #00a1ff;
+}
+.popover-content h4 small {
+  color: black;
+}
+.popover-content button.btn-primary {
+  color: #00a1ff;
+  border-color: #00a1ff;
+  background: white;
+}
+
+.popover-content button.btn-default {
+  color: gray;
+  border-color: gray;
+}
