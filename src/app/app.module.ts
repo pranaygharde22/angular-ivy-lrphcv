@@ -11,6 +11,7 @@ import { SampleProjectComponent } from './sample-project/sample-project.componen
 import {DfmComponent} from './dfm/dfm.component';
 import {AnalysisComponent} from './analysis/analysis.component';
 import {ReportComponent} from './report/report.component';
+import {DfmRunComponent} from './dfm-run/dfm-run.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, appRoutingModule],
@@ -22,7 +23,8 @@ import {ReportComponent} from './report/report.component';
     SampleProjectComponent,
     DfmComponent,
     AnalysisComponent,
-    ReportComponent
+    ReportComponent,
+    DfmRunComponent
   ],
   bootstrap: [AppComponent],
 })

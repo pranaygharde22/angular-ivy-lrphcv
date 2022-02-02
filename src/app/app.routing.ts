@@ -6,6 +6,7 @@ import { SampleProjectComponent } from './sample-project/sample-project.componen
 import { DfmComponent } from './dfm/dfm.component';
 import { AnalysisComponent } from './analysis/analysis.component';
 import { ReportComponent } from './report/report.component';
+import {DfmRunComponent} from './dfm-run/dfm-run.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'dfm', component: DfmComponent },
   { path: 'analysis', component: AnalysisComponent },
   { path: 'report', component: ReportComponent },
+  { path: 'dfmRun', component: ReportComponent },
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' },
