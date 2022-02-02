@@ -71,3 +71,33 @@
   margin-left: 45%;
   margin-top: 5%;
 }
+span.tooltipStyle {
+  position: absolute;
+  top: 66%;
+  width: 200px;
+  height: 100px;
+  line-height: 20px;
+  padding: 9px;
+  font-size: 12px;
+  margin-left: 45%;
+  text-align: center;
+  color: black;
+  background: rgb(233 241 242);
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  text-shadow: rgb(0 0 0 / 10%) 1px 1px 1px;
+  box-shadow: rgb(0 0 0 / 10%) 1px 1px 2px 0px;
+}
+
+span.tooltipStyle::before {
+  content: '';
+  position: absolute;
+  border-color: #0062cc transparent transparent transparent;
+  top: -44px;
+  left: 50px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 46px solid #82b4a9;
+}
