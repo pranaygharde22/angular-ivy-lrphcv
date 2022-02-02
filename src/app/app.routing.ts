@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { SampleProjectComponent } from './sample-project/sample-project.component';
 import { DfmComponent } from './dfm/dfm.component';
 import { AnalysisComponent } from './analysis/analysis.component';
+import { ReportComponent } from './report/report.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'sampleproject', component: SampleProjectComponent },
   { path: 'dfm', component: DfmComponent },
   { path: 'analysis', component: AnalysisComponent },
+  { path: 'report', component: ReportComponent },
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' },

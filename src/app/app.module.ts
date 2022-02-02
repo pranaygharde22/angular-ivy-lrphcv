@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { SampleProjectComponent } from './sample-project/sample-project.component';
 import {DfmComponent} from './dfm/dfm.component';
 import {AnalysisComponent} from './analysis/analysis.component';
+import {ReportComponent} from './report/report.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, appRoutingModule],
@@ -20,7 +21,8 @@ import {AnalysisComponent} from './analysis/analysis.component';
     HomeComponent,
     SampleProjectComponent,
     DfmComponent,
-    AnalysisComponent
+    AnalysisComponent,
+    ReportComponent
   ],
   bootstrap: [AppComponent],
 })
