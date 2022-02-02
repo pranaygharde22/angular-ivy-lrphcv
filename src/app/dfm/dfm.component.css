@@ -38,7 +38,7 @@
   text-align: center;
   font-weight: 450;
   padding: 0px 0px 0px 0px;
-  margin-top: 180px;
+  margin-top: 16px;
   font-size: 13px;
 }
 .text2 {
@@ -66,4 +66,8 @@
 .button .fa {
   font-size: 14px;
   text-align: center;
+}
+.image_placement {
+  margin-left: 45%;
+  margin-top: 5%;
 }
