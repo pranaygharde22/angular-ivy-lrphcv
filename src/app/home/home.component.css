@@ -9,7 +9,7 @@
 .button {
   background-color: #18698b; /* Green */
   border: none;
-  color: white;
+
   text-align: center;
   text-decoration: none;
   display: block;
@@ -24,5 +24,6 @@
   padding: 10px 24px;
 }
 .button2 {
+  color: white;
   padding: 12px 28px;
 }
