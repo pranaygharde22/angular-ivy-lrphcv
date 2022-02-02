@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
 import { SampleProjectComponent } from './sample-project/sample-project.component';
 import {DfmComponent} from './dfm/dfm.component';
+import {AnalysisComponent} from './analysis/analysis.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, appRoutingModule],
@@ -18,7 +19,8 @@ import {DfmComponent} from './dfm/dfm.component';
     WelcomeComponent,
     HomeComponent,
     SampleProjectComponent,
-    DfmComponent
+    DfmComponent,
+    AnalysisComponent
   ],
   bootstrap: [AppComponent],
 })
