@@ -114,8 +114,8 @@ a:hover {
 
 span.tooltipStyle {
   position: absolute;
-  top: 88%;
-  width: 200px;
+  top: 63%;
+  width: 150px;
   height: 73px;
   line-height: 20px;
   padding: 9px;
@@ -134,13 +134,13 @@ span.tooltipStyle::before {
   content: '';
   position: absolute;
   border-color: #0062cc transparent transparent transparent;
-  top: -44px;
+  top: 72px;
   left: 50px;
   width: 0;
   height: 0;
-  border-left: 12px solid transparent;
-  border-right: 13px solid transparent;
-  border-bottom: 46px solid #e7f0ee;
+  border-left: 18px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 40px solid #e7f0ee;
 }
 .button {
   background-color: #18698b; /* Green */
